@@ -1,0 +1,25 @@
+[
+  { "coordinates": [-82.987619, 39.96652], "name": "Long St" },
+  { "coordinates": [-82.991043, 39.963311], "name": "Grant Ave" },
+  { "coordinates": [-82.996246, 39.962732], "name": "4th St" },
+  { "coordinates": [-83.000633, 39.962224], "name": "High St" },
+  { "coordinates": [-83.008852, 39.961229], "name": "Belle St" },
+  { "coordinates": [-83.022173, 39.959585], "name": "Souder/Davis" },
+  { "coordinates": [-83.03815, 39.957671], "name": "Central Ave" },
+  { "coordinates": [-83.056759, 39.955793], "name": "Whitethorne Ave" },
+  { "coordinates": [-83.065478, 39.95535], "name": "Eureka Ave" },
+  { "coordinates": [-83.073943, 39.954945], "name": "Hague Ave" },
+  { "coordinates": [-83.082819, 39.954529], "name": "Westgate Ave" },
+  { "coordinates": [-83.09472, 39.953969], "name": "Wilson Rd" },
+  {
+    "coordinates": [-83.110256, 39.953137],
+    "name": "Phillipi Rd/Georgesville Rd"
+  },
+  {
+    "coordinates": [-83.123735, 39.952499],
+    "name": "Old Village Rd/Grener Ave"
+  },
+  { "coordinates": [-83.135606, 39.951954], "name": "Gladys Rd/Sturbridge Rd" },
+  { "coordinates": [-83.146525, 39.95144], "name": "Westwood Blvd" },
+  { "coordinates": [-83.157099, 39.950966], "name": "Rockbrook Crossing Ave" }
+]

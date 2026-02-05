@@ -1,0 +1,19 @@
+[
+  { "coordinates": [-83.002274, 39.965846], "name": "Spring/Long" },
+  { "coordinates": [-82.997975, 39.96253], "name": "3rd/Broad" },
+  { "coordinates": [-82.997064, 39.957789], "name": "3rd/Rich" },
+  { "coordinates": [-82.98991, 39.95724], "name": "Grant Ave" },
+  { "coordinates": [-82.976143, 39.95798], "name": "18th St" },
+  { "coordinates": [-82.969458, 39.957847], "name": "Champion Ave" },
+  { "coordinates": [-82.958734, 39.957655], "name": "Kelton Ave" },
+  { "coordinates": [-82.944969, 39.957356], "name": "Alum Creek Dr" },
+  { "coordinates": [-82.936113, 39.957145], "name": "Pleasant Ridge Ave" },
+  { "coordinates": [-82.914821, 39.95659], "name": "James Rd" },
+  { "coordinates": [-82.903697, 39.956255], "name": "Maplewood Ave" },
+  { "coordinates": [-82.876852, 39.955475], "name": "Hamilton Rd" },
+  { "coordinates": [-82.857762, 39.954927], "name": "Fairway Blvd" },
+  { "coordinates": [-82.828735, 39.95481], "name": "Brice Rd" },
+  { "coordinates": [-82.806762, 39.955176], "name": "Haft Dr" },
+  { "coordinates": [-82.771542, 39.955949], "name": "Taylor Rd" },
+  { "coordinates": [-82.75966, 39.95616], "name": "Eastwood Dr" }
+]

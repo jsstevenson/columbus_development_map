@@ -1,0 +1,11 @@
+{
+  "name": "franklin-county-votes-2024",
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "browser-sync": "^3.0.3"
+  },
+  "scripts": {
+    "serve": "browser-sync start --server --files '*.html, *.js, *.css'"
+  }
+}

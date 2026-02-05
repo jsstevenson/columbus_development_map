@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bldg-001",
+      "properties": {
+        "name": "Columbus State CC YMCA/Park",
+        "status": "proposed",
+        "last_updated": "2025-08-28",
+        "categories": ["recreational", "education"],
+        "links": [
+          "https://columbusunderground.com/columbus-state-proposes-new-ymca-and-park-for-downtown-campus-bw1/",
+          "https://www.cscc.edu/go/ymca/"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.98928, 39.966431],
+            [-82.987745, 39.966629],
+            [-82.987971, 39.967763],
+            [-82.98943, 39.967492]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "Columbus State CC Health Sciences Building",
+        "status": "under_construction",
+        "last_updated": "2025-02-25",
+        "categories": ["education"],
+        "links": [
+          "https://columbusunderground.com/new-columbus-state-building-approved-more-changes-planned-for-downtown-campus-bw1/"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.990433, 39.968536],
+            [-82.989725, 39.968495],
+            [-82.989972, 39.967656],
+            [-82.990519, 39.967554]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-003",
+      "properties": {
+        "name": "Artem on Gay",
+        "status": "under_construction",
+        "last_updated": "2025-12-05",
+        "categories": ["residential"],
+        "floors": 6,
+        "links": [
+          "https://www.bizjournals.com/columbus/news/2025/12/05/gay-street-apartment-development-finance-fund.html",
+          "https://ohiohome.org/ppd/proposals/2024/9-Percent/NewAffordability-GeneralOccupancy/ArtemonGay.pdf",
+          "https://columbusunderground.com/downtown-commission-approves-affordable-housing-on-gay-street-bw1/"
+        ],
+        "residential": {
+          "parking": 25,
+          "units": 71,
+          "affordable": true
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.992015, 39.964528],
+            [-82.99143, 39.96461],
+            [-82.991376, 39.964392],
+            [-82.991977, 39.964314]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-004",
+      "properties": {
+        "name": "CSCC Ohio Center for Advanced Technologies",
+        "status": "proposed",
+        "last_updated": "2026-02-04",
+        "categories": ["education"],
+        "links": [
+          "https://columbusunderground.com/latest-columbus-state-expansion-will-house-advanced-technologies-hub-we1/"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.990493, 39.967315],
+            [-82.989607, 39.967471],
+            [-82.989398, 39.966403],
+            [-82.990391, 39.966292],
+            [-82.990509, 39.967073]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-005",
+      "properties": {
+        "name": "CSCC/Opportunity Pointe",
+        "status": "proposed",
+        "last_updated": "2025-10-14",
+        "categories": ["residential"],
+        "links": [
+          "https://ohiohome.org/ppd/proposals/2024/9-Percent/NewAffordability-GeneralOccupancy/OpportunityPointeI.pdf"
+        ],
+        "residential": {
+          "parking": 11,
+          "units": 70,
+          "affordable": true
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.991507, 39.966176],
+            [-82.990611, 39.966275],
+            [-82.990772, 39.967097],
+            [-82.990745, 39.967323],
+            [-82.991706, 39.967167],
+            [-82.991496, 39.96616]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "",
+        "status": "",
+        "last_updated": "",
+        "categories": [],
+        "links": [],
+        "floors": null,
+        "residential": {
+          "parking": null,
+          "units": null
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[]]
+      }
+    }
+  ]
+}
