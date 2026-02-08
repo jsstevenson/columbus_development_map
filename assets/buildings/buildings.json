@@ -1,397 +1,460 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": "bldg-001",
-      "properties": {
-        "name": "Columbus State CC YMCA/Park",
-        "status": "proposed",
-        "last_updated": "2025-08-28",
-        "categories": ["recreational", "education"],
-        "links": [
-          "https://columbusunderground.com/columbus-state-proposes-new-ymca-and-park-for-downtown-campus-bw1/",
-          "https://www.cscc.edu/go/ymca/"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.98928, 39.966431],
-            [-82.987745, 39.966629],
-            [-82.987971, 39.967763],
-            [-82.98943, 39.967492]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-002",
-      "properties": {
-        "name": "Columbus State CC Health Sciences Building",
-        "status": "under_construction",
-        "last_updated": "2025-02-25",
-        "categories": ["education"],
-        "links": [
-          "https://columbusunderground.com/new-columbus-state-building-approved-more-changes-planned-for-downtown-campus-bw1/"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.990433, 39.968536],
-            [-82.989725, 39.968495],
-            [-82.989972, 39.967656],
-            [-82.990519, 39.967554]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-003",
-      "properties": {
-        "name": "Artem on Gay",
-        "status": "under_construction",
-        "last_updated": "2025-12-05",
-        "categories": ["residential"],
-        "floors": 6,
-        "links": [
-          "https://www.bizjournals.com/columbus/news/2025/12/05/gay-street-apartment-development-finance-fund.html",
-          "https://ohiohome.org/ppd/proposals/2024/9-Percent/NewAffordability-GeneralOccupancy/ArtemonGay.pdf",
-          "https://columbusunderground.com/downtown-commission-approves-affordable-housing-on-gay-street-bw1/"
-        ],
-        "residential": {
-          "parking": 25,
-          "units": 71,
-          "affordable": true
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.992015, 39.964528],
-            [-82.99143, 39.96461],
-            [-82.991376, 39.964392],
-            [-82.991977, 39.964314]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-004",
-      "properties": {
-        "name": "CSCC Ohio Center for Advanced Technologies",
-        "status": "proposed",
-        "last_updated": "2026-02-04",
-        "categories": ["education"],
-        "links": [
-          "https://columbusunderground.com/latest-columbus-state-expansion-will-house-advanced-technologies-hub-we1/"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.990493, 39.967315],
-            [-82.989607, 39.967471],
-            [-82.989398, 39.966403],
-            [-82.990391, 39.966292],
-            [-82.990509, 39.967073]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-005",
-      "properties": {
-        "name": "CSCC/Opportunity Pointe",
-        "status": "proposed",
-        "last_updated": "2025-10-14",
-        "categories": ["residential"],
-        "links": [
-          "https://ohiohome.org/ppd/proposals/2024/9-Percent/NewAffordability-GeneralOccupancy/OpportunityPointeI.pdf"
-        ],
-        "residential": {
-          "parking": 11,
-          "units": 70,
-          "affordable": true
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.991507, 39.966176],
-            [-82.990611, 39.966275],
-            [-82.990772, 39.967097],
-            [-82.990745, 39.967323],
-            [-82.991706, 39.967167],
-            [-82.991496, 39.96616]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-006",
-      "properties": {
-        "name": "Fifth x Northwest",
-        "status": "completed",
-        "completed_on": "2025",
-        "categories": ["residential", "commercial"],
-        "links": [
-          "https://columbusunderground.com/six-story-development-planned-for-5th-avenue-near-grandview-bw1/"
-        ],
-        "floors": 6,
-        "residential": {
-          "parking": 188,
-          "units": 164
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-83.043193, 39.988794],
-            [-83.042195, 39.988744],
-            [-83.042179, 39.989164],
-            [-83.043166, 39.989217]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-007",
-      "properties": {
-        "name": "The Gerry",
-        "status": "proposed",
-        "last_updated": "2025-01-03",
-        "categories": ["residential"],
-        "links": [
-          "https://columbusunderground.com/five-story-apartment-building-proposed-for-5xnw-site-bw1/"
-        ],
-        "floors": 5,
-        "residential": {
-          "parking": 244,
-          "units": 260
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-83.033085, 39.990536],
-            [-83.033133, 39.989751],
-            [-83.033793, 39.989813],
-            [-83.033724, 39.990586]
-          ]
-        ]
-      }
-    },
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "bldg-001",
+            "properties": {
+                "name": "Columbus State CC YMCA/Park",
+                "status": "proposed",
+                "last_updated": "2025-08-28",
+                "categories": ["recreational", "education"],
+                "links": [
+                    "https://columbusunderground.com/columbus-state-proposes-new-ymca-and-park-for-downtown-campus-bw1/",
+                    "https://www.cscc.edu/go/ymca/"
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.98928, 39.966431],
+                        [-82.987745, 39.966629],
+                        [-82.987971, 39.967763],
+                        [-82.98943, 39.967492]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-002",
+            "properties": {
+                "name": "Columbus State CC Health Sciences Building",
+                "status": "under_construction",
+                "last_updated": "2025-02-25",
+                "categories": ["education"],
+                "links": [
+                    "https://columbusunderground.com/new-columbus-state-building-approved-more-changes-planned-for-downtown-campus-bw1/"
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.990433, 39.968536],
+                        [-82.989725, 39.968495],
+                        [-82.989972, 39.967656],
+                        [-82.990519, 39.967554]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-003",
+            "properties": {
+                "name": "Artem on Gay",
+                "status": "under_construction",
+                "last_updated": "2025-12-05",
+                "categories": ["residential"],
+                "floors": 6,
+                "links": [
+                    "https://www.bizjournals.com/columbus/news/2025/12/05/gay-street-apartment-development-finance-fund.html",
+                    "https://ohiohome.org/ppd/proposals/2024/9-Percent/NewAffordability-GeneralOccupancy/ArtemonGay.pdf",
+                    "https://columbusunderground.com/downtown-commission-approves-affordable-housing-on-gay-street-bw1/"
+                ],
+                "residential": {
+                    "parking": 25,
+                    "units": 71,
+                    "affordable": true
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.992015, 39.964528],
+                        [-82.99143, 39.96461],
+                        [-82.991376, 39.964392],
+                        [-82.991977, 39.964314]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-004",
+            "properties": {
+                "name": "CSCC Ohio Center for Advanced Technologies",
+                "status": "proposed",
+                "last_updated": "2026-02-04",
+                "categories": ["education"],
+                "links": [
+                    "https://columbusunderground.com/latest-columbus-state-expansion-will-house-advanced-technologies-hub-we1/"
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.990493, 39.967315],
+                        [-82.989607, 39.967471],
+                        [-82.989398, 39.966403],
+                        [-82.990391, 39.966292],
+                        [-82.990509, 39.967073]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-005",
+            "properties": {
+                "name": "CSCC/Opportunity Pointe",
+                "status": "proposed",
+                "last_updated": "2025-10-14",
+                "categories": ["residential"],
+                "links": [
+                    "https://ohiohome.org/ppd/proposals/2024/9-Percent/NewAffordability-GeneralOccupancy/OpportunityPointeI.pdf"
+                ],
+                "residential": {
+                    "parking": 11,
+                    "units": 70,
+                    "affordable": true
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.991507, 39.966176],
+                        [-82.990611, 39.966275],
+                        [-82.990772, 39.967097],
+                        [-82.990745, 39.967323],
+                        [-82.991706, 39.967167],
+                        [-82.991496, 39.96616]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-006",
+            "properties": {
+                "name": "Fifth x Northwest",
+                "status": "completed",
+                "completed_on": "2025",
+                "categories": ["residential", "commercial"],
+                "links": [
+                    "https://columbusunderground.com/six-story-development-planned-for-5th-avenue-near-grandview-bw1/"
+                ],
+                "floors": 6,
+                "residential": {
+                    "parking": 188,
+                    "units": 164
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-83.043193, 39.988794],
+                        [-83.042195, 39.988744],
+                        [-83.042179, 39.989164],
+                        [-83.043166, 39.989217]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-007",
+            "properties": {
+                "name": "The Gerry",
+                "status": "proposed",
+                "last_updated": "2025-01-03",
+                "categories": ["residential"],
+                "links": [
+                    "https://columbusunderground.com/five-story-apartment-building-proposed-for-5xnw-site-bw1/"
+                ],
+                "floors": 5,
+                "residential": {
+                    "parking": 244,
+                    "units": 260
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-83.033085, 39.990536],
+                        [-83.033133, 39.989751],
+                        [-83.033793, 39.989813],
+                        [-83.033724, 39.990586]
+                    ]
+                ]
+            }
+        },
 
-    {
-      "type": "Feature",
-      "id": "bldg-008",
-      "properties": {
-        "name": "The Estrella",
-        "status": "proposed",
-        "last_updated": "2026-01-27",
-        "categories": ["residential", "commercial"],
-        "links": [
-          "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2026%2F01%2E%20January%2FVI1%2E%20COA2600002%20199%20E%2E%20Rich%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2026%2F01%2E%20January&ga=1"
-        ],
-        "floors": 24,
-        "residential": {
-          "parking": 326,
-          "units": 252
+        {
+            "type": "Feature",
+            "id": "bldg-008",
+            "properties": {
+                "name": "The Estrella",
+                "status": "proposed",
+                "last_updated": "2026-01-27",
+                "categories": ["residential", "commercial"],
+                "links": [
+                    "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2026%2F01%2E%20January%2FVI1%2E%20COA2600002%20199%20E%2E%20Rich%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2026%2F01%2E%20January&ga=1"
+                ],
+                "floors": 24,
+                "residential": {
+                    "parking": 326,
+                    "units": 252
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.995207, 39.957906],
+                        [-82.994266, 39.958025],
+                        [-82.994161, 39.957478],
+                        [-82.994813, 39.957406],
+                        [-82.994896, 39.957737],
+                        [-82.995162, 39.957719]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-009",
+            "properties": {
+                "name": "Scioto Peninsula Phase II",
+                "status": "proposed",
+                "last_updated": "2026-01-27",
+                "categories": ["residential", "commercial"],
+                "links": [
+                    "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2026%2F01%2E%20January%2FV1%2E%20COA2600006%20317%20W%2E%20State%20St%2E%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2026%2F01%2E%20January&ga=1"
+                ],
+                "floors": 13,
+                "residential": {
+                    "parking": null,
+                    "units": null,
+                    "affordable": null
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-83.008948, 39.961097],
+                        [-83.008841, 39.960574],
+                        [-83.010145, 39.96042],
+                        [-83.010236, 39.96094]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-010",
+            "properties": {
+                "name": "Untitled Capital Square 3rd St Development",
+                "status": "proposed",
+                "last_updated": "2026-01-29",
+                "categories": ["residential", "commercial"],
+                "links": [
+                    "https://columbusunderground.com/vorys-and-edwards-submit-plans-for-new-capitol-square-development-bw1/"
+                ],
+                "floors": 12,
+                "residential": {
+                    "parking": null,
+                    "units": null,
+                    "affordable": null
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.997471, 39.96056],
+                        [-82.996817, 39.960671],
+                        [-82.996962, 39.961419],
+                        [-82.997632, 39.961358]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-002",
+            "properties": {
+                "name": "Capitol Square S 4th St Tower",
+                "status": "",
+                "last_updated": "",
+                "completed_on": null,
+                "categories": [],
+                "links": [
+                    "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December%2FV2%2E%20COA2501313%2033%20S%2E%204th%20St%2E%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December&ga=1"
+                ],
+                "floors": null,
+                "residential": {
+                    "parking": null,
+                    "units": 218,
+                    "affordable": null
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.996264, 39.961933],
+                        [-82.99617, 39.96145],
+                        [-82.996489, 39.961425],
+                        [-82.996479, 39.961368],
+                        [-82.996801, 39.961345],
+                        [-82.996897, 39.961847]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-011",
+            "properties": {
+                "name": "Columbus Municipal Court Building",
+                "status": "proposed",
+                "last_updated": "2025-11-19",
+                "categories": ["municipal"],
+                "links": [
+                    "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December%2FV3%2E%20COA2501320%20410%20S%2E%20High%20St%2E%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December&ga=1"
+                ],
+                "floors": 8
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.998351, 39.954803],
+                        [-82.998126, 39.953677],
+                        [-82.998829, 39.953586],
+                        [-82.999038, 39.9547]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-012",
+            "properties": {
+                "name": "Scioto Peninsula Pickleball Courts",
+                "status": "proposed",
+                "last_updated": "2026-01-28",
+                "categories": ["recreational"],
+                "links": [
+                    "https://columbusunderground.com/pickleball-courts-planned-for-key-scioto-peninsula-site-bw1/"
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-83.008281, 39.957756],
+                        [-83.008243, 39.957525],
+                        [-83.008801, 39.957476],
+                        [-83.008844, 39.957694]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-013",
+            "properties": {
+                "name": "Untitled",
+                "address": "1060 N. High St",
+                "status": "proposed",
+                "last_updated": "2026-01-28",
+                "categories": ["residential", "commercial"],
+                "links": [
+                    "https://columbusunderground.com/new-development-proposed-for-high-street-spot-near-campus-bw1/",
+                    "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FUniversity%20Impact%20District%20Review%20Board%20%28UIDRB%29%2F2026%2F01%2E%20January%2FMeeting%20Materials%2FCOA2600003%2C%202060%20N%2E%20High%20St%2E%2C%20Application%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FUniversity%20Impact%20District%20Review%20Board%20%28UIDRB%29%2F2026%2F01%2E%20January%2FMeeting%20Materials&ga=1"
+                ],
+                "floors": 7,
+                "residential": {
+                    "parking": 260,
+                    "units": 270
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-83.007505, 40.004825],
+                        [-83.007554, 40.004112],
+                        [-83.008747, 40.004159],
+                        [-83.00887, 40.004761],
+                        [-83.008237, 40.004741],
+                        [-83.008216, 40.004854]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-014",
+            "properties": {
+                "address": null,
+                "status": "proposed",
+                "last_updated": "2026-01-07",
+                "categories": ["residential"],
+                "links": [
+                    "https://columbusunderground.com/apartments-for-homeless-moving-forward-in-franklinton-bw1/"
+                ],
+                "floors": 5,
+                "residential": {
+                    "parking": 0,
+                    "units": 103,
+                    "affordable": true
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-83.017142, 39.957003],
+                        [-83.017073, 39.956738],
+                        [-83.017606, 39.95668],
+                        [-83.01766, 39.956937]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bldg-002",
+            "properties": {
+                "name": "",
+                "address": null,
+                "status": "",
+                "last_updated": "",
+                "completed_on": null,
+                "categories": [],
+                "links": [],
+                "floors": null,
+                "residential": {
+                    "parking": null,
+                    "units": null,
+                    "affordable": null
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[]]
+            }
         }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.995207, 39.957906],
-            [-82.994266, 39.958025],
-            [-82.994161, 39.957478],
-            [-82.994813, 39.957406],
-            [-82.994896, 39.957737],
-            [-82.995162, 39.957719]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-009",
-      "properties": {
-        "name": "Scioto Peninsula Phase II",
-        "status": "proposed",
-        "last_updated": "2026-01-27",
-        "categories": ["residential", "commercial"],
-        "links": [
-          "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2026%2F01%2E%20January%2FV1%2E%20COA2600006%20317%20W%2E%20State%20St%2E%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2026%2F01%2E%20January&ga=1"
-        ],
-        "floors": 13,
-        "residential": {
-          "parking": null,
-          "units": null,
-          "affordable": null
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-83.008948, 39.961097],
-            [-83.008841, 39.960574],
-            [-83.010145, 39.96042],
-            [-83.010236, 39.96094]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-010",
-      "properties": {
-        "name": "Untitled Capital Square 3rd St Development",
-        "status": "proposed",
-        "last_updated": "2026-01-29",
-        "categories": ["residential", "commercial"],
-        "links": [
-          "https://columbusunderground.com/vorys-and-edwards-submit-plans-for-new-capitol-square-development-bw1/"
-        ],
-        "floors": 12,
-        "residential": {
-          "parking": null,
-          "units": null,
-          "affordable": null
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.997471, 39.96056],
-            [-82.996817, 39.960671],
-            [-82.996962, 39.961419],
-            [-82.997632, 39.961358]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-002",
-      "properties": {
-        "name": "Capitol Square S 4th St Tower",
-        "status": "",
-        "last_updated": "",
-        "completed_on": null,
-        "categories": [],
-        "links": [
-          "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December%2FV2%2E%20COA2501313%2033%20S%2E%204th%20St%2E%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December&ga=1"
-        ],
-        "floors": null,
-        "residential": {
-          "parking": null,
-          "units": 218,
-          "affordable": null
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.996264, 39.961933],
-            [-82.99617, 39.96145],
-            [-82.996489, 39.961425],
-            [-82.996479, 39.961368],
-            [-82.996801, 39.961345],
-            [-82.996897, 39.961847]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-011",
-      "properties": {
-        "name": "Columbus Municipal Court Building",
-        "status": "proposed",
-        "last_updated": "2025-11-19",
-        "categories": ["municipal"],
-        "links": [
-          "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December%2FV3%2E%20COA2501320%20410%20S%2E%20High%20St%2E%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December&ga=1"
-        ],
-        "floors": 8
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.998351, 39.954803],
-            [-82.998126, 39.953677],
-            [-82.998829, 39.953586],
-            [-82.999038, 39.9547]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-012",
-      "properties": {
-        "name": "Scioto Peninsula Pickleball Courts",
-        "status": "proposed",
-        "last_updated": "2026-01-28",
-        "categories": ["recreational"],
-        "links": [
-          "https://columbusunderground.com/pickleball-courts-planned-for-key-scioto-peninsula-site-bw1/"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-83.008281, 39.957756],
-            [-83.008243, 39.957525],
-            [-83.008801, 39.957476],
-            [-83.008844, 39.957694]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bldg-002",
-      "properties": {
-        "name": "",
-        "address": null,
-        "status": "",
-        "last_updated": "",
-        "completed_on": null,
-        "categories": [],
-        "links": [],
-        "floors": null,
-        "residential": {
-          "parking": null,
-          "units": null,
-          "affordable": null
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[]]
-      }
-    }
-  ]
+    ]
 }
