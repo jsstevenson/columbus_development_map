@@ -196,7 +196,6 @@
         ]
       }
     },
-
     {
       "type": "Feature",
       "id": "bldg-008",
@@ -297,9 +296,7 @@
         "last_updated": "",
         "completed_on": null,
         "categories": [],
-        "links": [
-          "https://columbusoh-my.sharepoint.com/personal/devmsonedrive3_columbus_gov/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December%2FV2%2E%20COA2501313%2033%20S%2E%204th%20St%2E%20Meeting%20Materials%2Epdf&parent=%2Fpersonal%2Fdevmsonedrive3%5Fcolumbus%5Fgov%2FDocuments%2FPlanning%2FBoard%5FCommission%2FDowntown%20Commission%20%28DC%29%2F2025%2F12%2E%20December&ga=1"
-        ],
+        "links": [],
         "floors": null,
         "residential": {
           "parking": null,
@@ -348,33 +345,8 @@
     },
     {
       "type": "Feature",
-      "id": "bldg-012",
-      "properties": {
-        "name": "Scioto Peninsula Pickleball Courts",
-        "status": "proposed",
-        "last_updated": "2026-01-28",
-        "categories": ["recreational"],
-        "links": [
-          "https://columbusunderground.com/pickleball-courts-planned-for-key-scioto-peninsula-site-bw1/"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-83.008281, 39.957756],
-            [-83.008243, 39.957525],
-            [-83.008801, 39.957476],
-            [-83.008844, 39.957694]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "bldg-013",
       "properties": {
-        "name": "Untitled",
         "address": "1060 N. High St",
         "status": "proposed",
         "last_updated": "2026-01-28",
@@ -399,6 +371,269 @@
             [-83.00887, 40.004761],
             [-83.008237, 40.004741],
             [-83.008216, 40.004854]
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "id": "bldg-015",
+      "properties": {
+        "name": "Salesian Building",
+        "address": "80 S. Sixth St",
+        "status": "proposed",
+        "last_updated": "2025-12-17",
+        "categories": ["residential"],
+        "links": [
+          "https://columbusunderground.com/two-downtown-projects-land-historic-tax-credits-bw1/",
+          "https://columbusunderground.com/downtown-commission-plans-heard-for-salesian-building-continental-centre-pnc-tower-bw1/"
+        ],
+        "floors": 5,
+        "conversion": true,
+        "residential": {
+          "units": 70,
+          "affordable": true
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.99186, 39.961541],
+            [-82.991793, 39.961247],
+            [-82.992168, 39.961203],
+            [-82.992235, 39.961506]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "Columbia Larrimer Building",
+        "address": "165 N. High St",
+        "status": "proposed",
+        "last_updated": "2025-12-04",
+        "categories": ["residential"],
+        "links": [
+          "https://columbusunderground.com/apartments-planned-for-historic-downtown-building-bw1/"
+        ],
+        "floors": 3,
+        "conversion": true,
+        "renovation": true,
+        "residential": {
+          "units": 10
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.001537, 39.96579],
+            [-83.001511, 39.96565],
+            [-83.002146, 39.965576],
+            [-83.002165, 39.965722]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "address": "111 Stewart Avenue",
+      "properties": {
+        "status": "proposed",
+        "last_updated": "2025-12-02",
+        "categories": ["residential"],
+        "links": [
+          "https://columbusunderground.com/demolition-of-south-side-church-begins-housing-planned-bw1/",
+          "https://www.nationwidechildrens.org/newsroom/news-releases/2025/07/hnhf_corpuschristi"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.965424, 39.940545],
+            [-82.965505, 39.939566],
+            [-82.966534, 39.939624],
+            [-82.966459, 39.940594]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "Elevate 340",
+        "address": "340 East Fulton Street",
+        "status": "under_construction",
+        "last_updated": "2025-11-21",
+        "categories": ["residential"],
+        "links": [
+          "https://ohiohome.org/ppd/proposals/2022/CentralCity/Elevate340.pdf"
+        ],
+        "floors": 5,
+        "residential": {
+          "units": 74,
+          "affordable": true
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.989639, 39.95504],
+            [-82.989564, 39.954653],
+            [-82.990275, 39.954581],
+            [-82.990342, 39.95497]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "address": "100 N. High St.",
+        "status": "under_construction",
+        "last_updated": "2025-11-21",
+        "categories": ["residential", "commercial"],
+        "links": [
+          "https://columbusunderground.com/the-list-10-housing-developments-under-construction-or-about-to-be-downtown-bw1/"
+        ],
+        "floors": 15,
+        "residential": {
+          "units": 152
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.000271, 39.964577],
+            [-83.000191, 39.964172],
+            [-83.000808, 39.964108],
+            [-83.000894, 39.964507]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "The Civic",
+        "address": "145 S. Front St",
+        "status": "under_construction",
+        "last_updated": "2025-11-21",
+        "categories": ["residential", "commercial"],
+        "links": [
+          "https://columbusunderground.com/renovation-plans-announced-for-long-vacant-office-building-we1/",
+          "https://columbusunderground.com/the-list-10-housing-developments-under-construction-or-about-to-be-downtown-bw1/"
+        ],
+        "floors": 7,
+        "conversion": true,
+        "residential": {
+          "units": 92
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.002122, 39.959133],
+            [-83.002039, 39.958747],
+            [-83.002562, 39.958691],
+            [-83.002629, 39.959078]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "Peninsula Phase II",
+        "status": "under_construction",
+        "last_updated": "2025-11-21",
+        "categories": ["residential", "commercial"],
+        "links": [
+          "https://columbusunderground.com/the-list-10-housing-developments-under-construction-or-about-to-be-downtown-bw1/",
+          "https://columbusunderground.com/mixed-use-development-approved-for-scioto-peninsula-bw1/"
+        ],
+        "floors": 7,
+        "residential": {
+          "units": 137
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.009597, 39.960379],
+            [-83.009493, 39.959861],
+            [-83.010013, 39.959799],
+            [-83.010118, 39.960321]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "Lofts at 40 Long",
+        "address": "40 W Long St",
+        "status": "under_construction",
+        "last_updated": "2025-11-21",
+        "categories": ["residential"],
+        "links": [
+          "https://columbusunderground.com/photos-renovation-of-downtown-ymca-to-begin-bw1/",
+          "https://columbusunderground.com/the-list-10-housing-developments-under-construction-or-about-to-be-downtown-bw1/"
+        ],
+        "floors": 7,
+        "conversion": true,
+        "residential": {
+          "units": 121,
+          "affordable": true
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.002261, 39.965436],
+            [-83.002165, 39.964961],
+            [-83.002806, 39.9649],
+            [-83.002897, 39.965373]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-012",
+      "properties": {
+        "name": "Scioto Peninsula Pickleball Courts",
+        "status": "proposed",
+        "last_updated": "2026-01-28",
+        "categories": ["recreational"],
+        "links": [
+          "https://columbusunderground.com/pickleball-courts-planned-for-key-scioto-peninsula-site-bw1/"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.008281, 39.957756],
+            [-83.008243, 39.957525],
+            [-83.008801, 39.957476],
+            [-83.008844, 39.957694]
           ]
         ]
       }
