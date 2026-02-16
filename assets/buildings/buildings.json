@@ -705,6 +705,175 @@
       "type": "Feature",
       "id": "bldg-002",
       "properties": {
+        "address": "3099 W. Broad St.",
+        "status": "proposed",
+        "last_updated": "2026-02-11",
+        "categories": ["residential", "commercial"],
+        "links": [
+          "https://columbusunderground.com/renovation-plans-for-historic-hilltop-buildings-moving-forward-bw1/"
+        ],
+        "floors": 2,
+        "renovation": true,
+        "residential": {
+          "units": 5,
+          "affordable": true
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.082884, 39.954464],
+            [-83.08283, 39.954047],
+            [-83.083029, 39.954045],
+            [-83.083088, 39.954466]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "address": "274 E. First Ave",
+        "status": "proposed",
+        "last_updated": "2026-02-13",
+        "categories": ["residential"],
+        "links": [
+          "https://columbusunderground.com/multi-building-development-proposed-for-italian-village-bw1/"
+        ],
+        "floors": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.995159, 39.982102],
+            [-82.995299, 39.980565],
+            [-82.997048, 39.980647],
+            [-82.997021, 39.981399],
+            [-82.997203, 39.982246],
+            [-82.995406, 39.982172]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "NCJC Downtown Campus Phase 1",
+        "status": "under_construction",
+        "last_updated": "2025-11-27",
+        "categories": ["residential", "commercial"],
+        "links": [
+          "https://columbusunderground.com/mixed-use-development-will-add-to-affordable-campus-downtown-bw1/"
+        ],
+        "floors": 5,
+        "residential": {
+          "units": 120,
+          "affordable": true
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.991793, 39.957632],
+            [-82.991678, 39.95712],
+            [-82.993115, 39.956962],
+            [-82.993223, 39.957472]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "CAPA Central Presbyterian Church Venue",
+        "address": "132 S 3rd St",
+        "status": "proposed",
+        "last_updated": "2025-10-21",
+        "categories": ["entertainment"],
+        "links": [
+          "https://columbusunderground.com/capa-lays-out-plans-for-historic-downtown-church-bw1/",
+          "https://columbusunderground.com/plan-to-turn-downtown-church-into-music-venue-moving-forward-bw1/"
+        ],
+        "renovation": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.99664, 39.959828],
+            [-82.996602, 39.959659],
+            [-82.997249, 39.959588],
+            [-82.997278, 39.959752]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "name": "Blu Note Jazz Club",
+        "address": "375 W Rich St",
+        "status": "proposed",
+        "last_updated": "2025-09-28",
+        "categories": ["entertainment"],
+        "links": [
+          "https://columbusunderground.com/historic-franklinton-building-to-be-converted-to-new-music-venue-we1/"
+        ],
+        "conversion": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.00952, 39.956267],
+            [-83.009353, 39.955735],
+            [-83.009724, 39.95565],
+            [-83.009876, 39.956228]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
+        "address": "East 15th Avenue and Pearl Alley",
+        "status": "proposed",
+        "last_updated": "2025-10-20",
+        "categories": ["residential", "hotel"],
+        "links": [
+          "https://columbusunderground.com/plan-for-university-square-hotel-apartments-moving-forward-bw1/",
+          "https://columbusunderground.com/renderings-eight-story-hotel-proposed-for-15th-and-high-bw1/"
+        ],
+        "floors": 8,
+        "residential": {
+          "units": 120
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.006306, 40.001008],
+            [-83.006105, 40.000023],
+            [-83.007154, 40.000075],
+            [-83.007301, 40.000815],
+            [-83.006719, 40.000981]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-002",
+      "properties": {
         "name": "",
         "address": null,
         "status": "",
@@ -712,6 +881,8 @@
         "completed_on": null,
         "categories": [],
         "links": [],
+        "conversion": null,
+        "renovation": null,
         "floors": null,
         "residential": {
           "parking": null,
